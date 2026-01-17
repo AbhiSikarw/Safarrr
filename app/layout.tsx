@@ -1,3 +1,6 @@
+import "./globals.css";
+import { Navigation } from "@/components/Navigation";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning>
+      <body>
+        <Navigation />
         {children}
       </body>
     </html>
