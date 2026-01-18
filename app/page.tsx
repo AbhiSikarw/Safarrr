@@ -59,7 +59,13 @@ export default function HomePage() {
             Discover travel stories with real safety insights. Plan your next adventure with confidence.
           </p>
         </div>
+        <div>
+          <h1>Abhishek Sikarwar</h1>
+          
+        </div>
+
       </div>
+      
 
       {/* Search & Filters */}
       <div className="bg-white border-b border-gray-200">
